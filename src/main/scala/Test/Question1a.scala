@@ -19,8 +19,6 @@ class Question1a {
   def f3 : Future[Unit] = Future(println("how is it going ?"))
   def f4 : Future[Unit] = Future(println("not bad :D"))
 
-  // Execution of A
-
   f1 foreach( unit => unit) // only succesful no failure handling
   f2 foreach( unit => unit) // only succesful no failure handling
   f3 foreach( unit => unit) // only succesful no failure handling
